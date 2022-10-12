@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qr-code-generator"
+version = "0.1.0"
+description = "A small program that wil make a qr-code from given data."
+authors = ["BakkerLars <lars00bakker@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qr_code_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
